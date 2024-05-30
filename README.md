@@ -3,11 +3,7 @@
 
 The official implementation of SAGA (Segment Any 3D GAussians). The paper is at [this url](https://jumpat.github.io/SAGA/SAGA_paper.pdf). Please refer to our [project page](https://jumpat.github.io/SAGA/) for more information. 
 <br>
-<br>
-<div align=center>
-<img src="./imgs/teaser.png" width="500px">
-
-SAGA can perform fine-grained interactive segmentation for 3D Gaussians within milliseconds.  
+<br>  
 </div>
 <br>
 <br>
