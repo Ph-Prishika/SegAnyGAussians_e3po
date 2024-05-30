@@ -61,13 +61,20 @@ python extract_segment_everything_masks.py --image_root <path to the scene data>
 ```
 Note that sometimes the downsample is essential due to the limited GPU memory.
 
-**NOTE** Due to the limited GPU memory we downsample to 4 for our method
-Downsampling
+**NOTE:Due to the limited GPU memory we downsample to 4 for our method** 
+
+**Downsampling**
+
 Explanation:
+
 Downsample 1: Original resolution.
+
 Downsample 2: Half the original resolution.
+
 Downsample 4: Quarter of the original resolution.
+
 Downsample 8: Eighth of the original resolution.
+
 Impact: Reduces computational load and memory usage but may affect the accuracy of segmentation.
 
 
