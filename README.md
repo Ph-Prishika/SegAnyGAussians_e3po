@@ -1,5 +1,14 @@
-# SAGA
 
+# FINAL PROJECT 
+For our final project we will be using the SAGA  to handle 3D object segmentation using Gaussian representations. This project builds on the principles of Gaussian splatting and semantic segmentation to achieve precise and efficient 3D segmentation.
+# Objective
+Objectives
+The main objectives of this project are to:
+
+Understand and implement the SAGA methodology.
+Evaluate its performance on various 3D datasets.
+Explore the impact of downsampling on segmentation accuracy and efficiency.
+# SAGA
 The official implementation of SAGA (Segment Any 3D GAussians). The paper is at [this url](https://jumpat.github.io/SAGA/SAGA_paper.pdf). Please refer to our [project page](https://jumpat.github.io/SAGA/) for more information. 
 <br>
 <br>  
