@@ -34,7 +34,7 @@ In default, we use the public ViT-H model for SAM. You can download the pre-trai
 
 ## Prepare Data
 
-The used datasets are [360_v2](https://jonbarron.info/mipnerf360/), [nerf_llff_data](https://drive.google.com/drive/folders/14boI-o5hGO9srnWaaogTU5_ji7wkX2S7) and [LERF](https://drive.google.com/drive/folders/1vh0mSl7v29yaGsxleadcj-LCZOE_WEWB?usp=sharing).
+The used datasets are [360_v2](https://jonbarron.info/mipnerf360/).
 
 The data structure of SAGA is shown as follows:
 ```
@@ -48,20 +48,7 @@ The data structure of SAGA is shown as follows:
             /sparse
             /features
             /sam_masks
-        ...
-    /nerf_llff_data
-        /fern
-            /images
-            /poses_bounds.npy
-            /sparse
-            /features
-            /sam_masks
-        /horns
-            ...
-        ...
-    /lerf_data
-        ...
-```
+    
 To get the features and sam_masks, run the following command:
 ```bash
 python extract_features.py --image_root <path to the scene data> --sam_checkpoint_path <path to the pre-trained SAM model> --downsample <1/2/4/8>
