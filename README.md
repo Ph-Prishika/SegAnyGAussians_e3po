@@ -60,7 +60,8 @@ python extract_features.py --image_root <path to the scene data> --sam_checkpoin
 python extract_segment_everything_masks.py --image_root <path to the scene data> --sam_checkpoint_path <path to the pre-trained SAM model> --downsample <1/2/4/8>
 ```
 Note that sometimes the downsample is essential due to the limited GPU memory.
-***NOTE**** Due to the limited GPU memory we downsample to 4 for our method
+
+**NOTE** Due to the limited GPU memory we downsample to 4 for our method
 Downsampling
 Explanation:
 Downsample 1: Original resolution.
