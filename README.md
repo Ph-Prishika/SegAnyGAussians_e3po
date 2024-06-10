@@ -17,7 +17,7 @@ The official implementation of SAGA (Segment Any 3D GAussians). The paper is at 
 <br>
 <br>
 <div align=center>
-<img src="./imgs/SAMMM.png" width="900px">
+<img src="./imgs/SAMMM.PNG" width="900px">
 </div>
 Given a pre-trained 3DGS model and its training set, we attach a low-dimensional 3D feature to each Gaussian in the model. For every image within the training set, we employ SAM to extract 2D features and a set of masks. Then we render 2D feature maps through the differentiable rasterization and train the attached features with two losses: i.e., the SAM-guidance loss and the correspondence loss. The former adopts SAM features to guide the 3D features to learn 3D segmentation from the ambiguous 2D masks. The latter distills the point-wise correspondence derived from the masks to enhance feature compactness.
 
