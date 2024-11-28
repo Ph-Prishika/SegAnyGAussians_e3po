@@ -1,7 +1,7 @@
 
 
-# FINAL PROJECT 
-For our final project we will be using the SAGA  to handle 3D object segmentation using Gaussian representations. This project builds on the principles of Gaussian splatting and semantic segmentation to achieve precise and efficient 3D segmentation.
+# INTRO PROJECT 
+For this project, E3PO along with the SAGA is explored to handle 3D object segmentation using Gaussian representations. This project builds on the principles of Gaussian splatting and semantic segmentation to achieve precise and efficient 3D segmentation.
 # Objective
 Objectives
 The main objectives of this project are to:
